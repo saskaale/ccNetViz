@@ -1,4 +1,4 @@
-import ccNetViz_color from '../../../color';
+import ccNetViz_color from '../../../../src/color';
 
 class Shader {
   // FUNCTION: converts rgb color string to int type
@@ -168,7 +168,7 @@ class Shader {
   }
 
   // FUNCTION: appends the base64 image to the svg bas
-  async appendNodeImage(svg, x, y, nodeId, styles, src) {
+  appendNodeImage(svg, x, y, nodeId, styles, src) {
     return new Promise((resolve, reject) => {
       var newImage = new Image();
       // get image base 64 data from the canvas

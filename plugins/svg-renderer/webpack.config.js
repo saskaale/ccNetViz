@@ -5,9 +5,10 @@ module.exports = {
   entry: './main.js',
   output: {
     path: path.join(__dirname, '..', '..', '..', 'lib', 'plugins'),
-    filename: 'svg-renderer-plugin.js',
+    //    path: __dirname,
+    filename: 'ccNetViz-svg-renderer-plugin.js',
   },
-  mode: 'development',
+  mode: 'production',
   module: {
     rules: [
       {
